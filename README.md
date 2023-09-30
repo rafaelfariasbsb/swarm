@@ -25,6 +25,7 @@ comando para promover um node para manager
 
 docker node promote HOSTNAME NODE
 
+chmod +x start.sh
+./start.sh
 
-docker stack deploy --compose-file=docker-compose.yml.yml portainer
 
